@@ -1,29 +1,31 @@
 # Bank Management System
 
 ## 📌 Overview
-The **Bank Management System** is a Java-based project that allows users to manage bank accounts, transactions, and other banking operations. It is built using Java and Apache Ant for building and running the application.
+The **Bank Management System** is a Java-based application built using Apache Ant. It allows users to perform banking operations such as account management, deposits, withdrawals, and transaction history tracking.
 
 ## 🛠️ Features
 - Account creation and management
 - Deposits and withdrawals
-- Transaction history
-- Secure authentication
+- Transaction history tracking
+- Secure authentication system
 
 ## 📂 Project Structure
 ```
-📦 Bank-Management-System
-├── 📂 src         # Source code
-├── 📂 lib         # Required libraries (if any)
-├── 📂 bin         # Compiled Java classes
-├── build.xml      # Apache Ant build script
-└── README.md      # Project documentation
+📦 bank-management-system
+├── 📂 build/classes/ASimulatorSystem   # Compiled Java classes
+├── 📂 nbproject                        # NetBeans project files
+├── 📂 src/ASimulatorSystem             # Source code (.java files)
+├── build.xml                           # Apache Ant build script
+├── manifest.mf                         # Manifest file for JAR packaging
+├── README.md                           # Project documentation
 ```
 
 ## 🚀 Installation & Setup
 ### Prerequisites
-Ensure you have the following installed on your system:
+Ensure you have the following installed:
 - **Java JDK** (Check with `java -version`)
 - **Apache Ant** (Check with `ant -version`)
+- **VS Code** (Recommended for development)
 
 ### Steps to Run the Project
 1. **Clone the Repository**
@@ -31,11 +33,16 @@ Ensure you have the following installed on your system:
    git clone https://github.com/your-username/bank-management-system.git
    cd bank-management-system
    ```
-2. **Build the Project**
+2. **Open the Project in VS Code**
+   - Open **VS Code**
+   - Click **File** → **Open Folder** → Select the project folder
+
+3. **Build the Project Using Ant**
    ```sh
    ant
    ```
-3. **Run the Application**
+
+4. **Run the Application**
    ```sh
    ant run
    ```
@@ -47,5 +54,5 @@ Feel free to fork the repository and submit pull requests.
 This project is licensed under the MIT License.
 
 ---
-✉️ **Author**: Atulay Kumar
+✉️ **Author**: Atulya Kumar
 
